@@ -2,15 +2,11 @@ from flask import Flask
 app = Flask(__name__)
 app.config.from_pyfile('config.py')
 
-import html
+from db_connector import row
 
-@app.route('/')
+@app.route('/get')
 def hello_world():
-    return 'Hello World!'
-
-@app.route('/test')
-def test():
-    return html.print_html(html)
+    return str(row);
 
 if __name__ == '__main__':
     app.run()
