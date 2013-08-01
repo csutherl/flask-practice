@@ -5,9 +5,9 @@
     <identifier-quote-string>`</identifier-quote-string>
     <synchronize>true</synchronize>
     <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-    <jdbc-url>jdbc:mysql://localhost:3306/test</jdbc-url>
-    <user-name>py</user-name>
-    <user-password>dfdadfd3dff5dfdadfcbdfd9dfd9</user-password>
+    <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+    <user-name>coty</user-name>
+    <user-password>dfc9dfc5dfdedfd3dfdadfcbdfd9dfd9</user-password>
     <schema-pattern>test.*</schema-pattern>
     <libraries>
       <library>
@@ -17,10 +17,5 @@
         <url>file://$PROJECT_DIR$/lib/mysql-connector-license.txt</url>
       </library>
     </libraries>
-    <schema name="" catalog="test"/>
-    <table name="test" schema="" catalog="test" type="TABLE">
-      <column name="id" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
-      <column name="value" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
-    </table>
   </data-source>
 </component>
