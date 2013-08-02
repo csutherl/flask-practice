@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 2.7.3 virtualenv at ~/.pythonbrew/venvs/Python-2.7.3/flask" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="knockout-2.3.0" level="application" />
+    <orderEntry type="library" name="jquery-1.9.1" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />

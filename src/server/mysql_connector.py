@@ -25,6 +25,14 @@ class DB_Connector():
         json_row = json.dumps(self.cur.fetchall(), cls=CustomEncoder)
         return json_row
 
+    def getOne(self, id):
+        # Use all the SQL you like
+        self.cur.execute("SELECT * FROM proc_status where duration = " + str(id))
+
+        # the cls arg allows me to use my custom encoder that allows me to encode datetimes
+        json_row = json.dumps(self.cur.fetchall(), cls=CustomEncoder)
+        return json_row
+
 # Who can't jsonify datetimes :P
 from datetime import datetime
 

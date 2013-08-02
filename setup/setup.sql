@@ -30,10 +30,12 @@ end;
 
 -- call createUser SP
 call createUser('py', 'py_pass', 'testing');
-drop procedure if exists createUser;
 
 -- truncate table (so I dont get dupes) and insert some test data
 truncate table proc_status;
-insert into proc_status (name, status, start_date, end_date, duration) values ('test 00', 'done', sysdate(), sysdate(), 0);
-insert into proc_status (name, status, start_date, end_date, duration) values ('test 01', 'started', sysdate(), sysdate(), 0);
-insert into proc_status (name, status, start_date, end_date, duration) values ('test 02', 'failed', sysdate(), sysdate(), 0);
+insert into proc_status (name, status, start_date, end_date, duration)
+  values ('test 00', 'done', sysdate(), sysdate(), end_date - start_date);
+insert into proc_status (name, status, start_date, end_date, duration)
+  values ('test 01', 'started', sysdate(), sysdate() + 10, end_date - start_date);
+insert into proc_status (name, status, start_date, end_date, duration)
+  values ('test 02', 'failed', sysdate(), sysdate() + 20, end_date - start_date);

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src='http://knockoutjs.com/downloads/knockout-2.3.0.js'></script>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    </head>
+
+    <body>
+        <table class='gridtable'>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Status</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: data">
+                <tr>
+                    <td data-bind="text: name"></td>
+                    <td data-bind="text: status"></td>
+                    <td data-bind="text: start_date"></td>
+                    <td data-bind="text: end_date"></td>
+                    <td data-bind="text: duration"></td>
+                </tr>
+            </tbody>
+        </table>
+        <script src='js/KnockoutBindings.js'></script>
+    </body>
+</html>
