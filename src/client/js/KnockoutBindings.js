@@ -1,7 +1,8 @@
 var _self = this;
 var o_arr = ko.observableArray([]);
 
-var url = "http://localhost:5000/rest/records";
+// IP Subject to change...
+var url = "http://10.13.105.16:5000/rest/records";
 //var url = "http://localhost:5000/rest/record/0";
 
 $.getJSON(url).done(function(data) {
