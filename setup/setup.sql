@@ -3,7 +3,13 @@ create database if not exists testing;
 use testing;
 
 -- create table
-create table if not exists proc_status (name varchar(64), status varchar(12), start_date datetime, end_date datetime, duration long);
+create table if not exists aw_jobexecution (
+  name varchar(64),
+  status varchar(12),
+  load_date datetime,
+  job_end_date datetime,
+  job_execution_duration long
+);
 
 -- create and setup user account
 drop procedure if exists createUser;
@@ -32,10 +38,10 @@ end;
 call createUser('py', 'py_pass', 'testing');
 
 -- truncate table (so I dont get dupes) and insert some test data
-truncate table proc_status;
-insert into proc_status (name, status, start_date, end_date, duration)
-  values ('test 00', 'done', sysdate(), sysdate(), end_date - start_date);
-insert into proc_status (name, status, start_date, end_date, duration)
-  values ('test 01', 'started', sysdate(), sysdate() + 10, end_date - start_date);
-insert into proc_status (name, status, start_date, end_date, duration)
-  values ('test 02', 'failed', sysdate(), sysdate() + 20, end_date - start_date);
+truncate table aw_jobexecution;
+insert into aw_jobexecution (name, status, load_date, job_end_date, job_execution_duration)
+  values ('test 00', 'done', sysdate(), sysdate(), job_end_date - load_date);
+insert into aw_jobexecution (name, status, load_date, job_end_date, job_execution_duration)
+  values ('test 01', 'started', sysdate(), date_add(sysdate(), interval 1 day_minute), job_end_date - load_date);
+insert into aw_jobexecution (name, status, load_date, job_end_date, job_execution_duration)
+  values ('test 02', 'failed', sysdate(), date_add(sysdate(), interval 1 day_hour), job_end_date - load_date);
