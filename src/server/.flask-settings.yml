@@ -1,0 +1,7 @@
+logging_level: 10
+dbtype: mysql
+user: py
+pass: py_pass
+host: localhost
+port: 3306
+dbname: testing
