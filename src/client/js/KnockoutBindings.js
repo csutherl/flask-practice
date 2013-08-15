@@ -2,8 +2,8 @@ var _self = this;
 var o_arr = ko.observableArray([]);
 
 // IP Subject to change...
-var url = "http://10.13.105.16:5000/rest/records";
-//var url = "http://localhost:5000/rest/record/0";
+//var url = "http://10.13.105.16:5000/rest/records";
+var url = "http://localhost:5000/rest/records";
 
 $.getJSON(url).done(function(data) {
     // Now use this data to update your view models,

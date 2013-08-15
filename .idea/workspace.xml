@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" name="Default" comment="Added settings file for the server side of the application.">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/server/mysql_connector.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/flask-practice.iml" afterPath="$PROJECT_DIR$/.idea/flask-practice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/js/KnockoutBindings.js" afterPath="$PROJECT_DIR$/src/client/js/KnockoutBindings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup/setup.py" afterPath="$PROJECT_DIR$/setup/setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/sqlalchemy_connector.py" afterPath="$PROJECT_DIR$/src/server/sqlalchemy_connector.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="flask-practice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376510898619" ignored="false" />
+    <file path="/Dummy.txt" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376511220591" ignored="false" />
     <file path="$PROJECT_DIR$/../mysms-xchat-plugin/src/com/csutherl/plugins/mysms/settings.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1375196647048" ignored="false" />
     <file path="$PROJECT_DIR$/../mysms-xchat-plugin/src/com/csutherl/plugins/mysms/mysmsclient.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1375196647048" ignored="false" />
     <file path="$PROJECT_DIR$/../mysms-xchat-plugin/src/com/csutherl/plugins/mysms/xchatclient.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1375196647048" ignored="false" />
@@ -33,10 +33,14 @@
     <file path="/KnockoutBindings.js" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376504985900" ignored="false" />
     <file path="$PROJECT_DIR$/../etlUnit/src/com/github/dbaAlex/etlunit/yaml_reader.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376492034496" ignored="false" />
     <file path="$PROJECT_DIR$/../etlUnit/src/com/github/dbaAlex/etlunit/main.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376492048317" ignored="false" />
-    <file path="/sqlalchemy_connector.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376510106203" ignored="false" />
-    <file path="/setup.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376502092636" ignored="false" />
+    <file path="/sqlalchemy_connector.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376569564830" ignored="false" />
+    <file path="/setup.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376569578202" ignored="false" />
     <file path="/settings.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376508939393" ignored="false" />
     <file path="/flask-settings.yml" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376510018328" ignored="false" />
+    <file path="/setup_mysql.md" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376511181056" ignored="false" />
+    <file path="$PROJECT_DIR$/../etlUnit/src/com/github/dbaAlex/etlunit/orm/__init__.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376569123963" ignored="false" />
+    <file path="$PROJECT_DIR$/../etlUnit/src/com/github/dbaAlex/etlunit/orm/sqlalchemy_connector.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376569564830" ignored="false" />
+    <file path="$PROJECT_DIR$/../etlUnit/setup.py" changelist="c0207239-8c9f-40e7-b176-ddd8e6b68e7e" time="1376569579423" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,28 @@
     <favorites_list name="flask-practice" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="rest-server.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/rest-server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="38" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlalchemy_connector.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/sqlalchemy_connector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="37" selection-start="89" selection-end="89" vertical-scroll-proportion="-0.4876033">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -78,22 +103,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/db_connector.py" />
         <option value="db-console:/8681a348/4b0d6374-895b-4cdf-8bf0-927a395cead7/" />
         <option value="$PROJECT_DIR$/src/rest-server.py" />
         <option value="$PROJECT_DIR$/src/KnockoutBindings.js" />
         <option value="$PROJECT_DIR$/src/server/sqlalchemy.py" />
         <option value="$PROJECT_DIR$/src/client/index.html" />
-        <option value="$PROJECT_DIR$/setup/setup.py" />
-        <option value="$PROJECT_DIR$/src/client/js/KnockoutBindings.js" />
         <option value="$PROJECT_DIR$/src/server/sqlalchemy_ex.py" />
         <option value="$PROJECT_DIR$/src/server/flask-settings.yml" />
         <option value="$PROJECT_DIR$/src/server/settings.py" />
         <option value="$PROJECT_DIR$/src/server/rest-server.py" />
         <option value="$PROJECT_DIR$/setup/setup.sql" />
         <option value="$PROJECT_DIR$/src/server/.flask-settings.yml" />
+        <option value="$PROJECT_DIR$/setup/setup_mysql.md" />
+        <option value="$PROJECT_DIR$/setup/setup.py" />
         <option value="$PROJECT_DIR$/src/server/sqlalchemy_connector.py" />
+        <option value="$PROJECT_DIR$/src/client/js/KnockoutBindings.js" />
       </list>
     </option>
   </component>
@@ -264,7 +289,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -573,7 +598,15 @@
       <created>1376510900707</created>
       <updated>1376510900707</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Removed the mysql_connector file because it was replaced by the ORM connector.">
+      <created>1376510998353</created>
+      <updated>1376510998353</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added a bit of instructions to setup mysql before you can actually use the server.">
+      <created>1376511222391</created>
+      <updated>1376511222391</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -586,11 +619,11 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.6712707" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23257698" sideWeight="0.67239404" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23257698" sideWeight="0.60615885" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38373426" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760596" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32760596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39384118" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39384118" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -643,7 +676,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a connector for sqlalchemy. This takes in settings from our settings file and allows for us to change sources based on the configuration file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a bit of instructions to setup mysql before you can actually use the server." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -667,6 +700,8 @@
     <MESSAGE value="Added static HTML page so that the server can find it. Also updated record API to take strings instead of ints." />
     <MESSAGE value="Added settings file for the server side of the application." />
     <MESSAGE value="Added a connector for sqlalchemy. This takes in settings from our settings file and allows for us to change sources based on the configuration file." />
+    <MESSAGE value="Removed the mysql_connector file because it was replaced by the ORM connector." />
+    <MESSAGE value="Added a bit of instructions to setup mysql before you can actually use the server." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -674,11 +709,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://db-console:/8681a348/4b0d6374-895b-4cdf-8bf0-927a395cead7/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="166" selection-end="191" vertical-scroll-proportion="0.17401393" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -687,13 +717,6 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.43945312">
           <folding />
         </state>
       </provider>
@@ -719,30 +742,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/mysql_connector.py">
+    <entry file="file://$PROJECT_DIR$/setup/teardown.sql">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.93582886">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup/setup.py">
+    <entry file="file://$PROJECT_DIR$/src/server/.flask-settings.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+        <state line="6" column="15" selection-start="97" selection-end="97" vertical-scroll-proportion="0.15228426">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/js/KnockoutBindings.js">
+    <entry file="file://$PROJECT_DIR$/src/client/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="56" selection-end="56" vertical-scroll-proportion="0.080213904">
+        <state line="15" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="549" selection-end="549" vertical-scroll-proportion="0.44692737">
+        <state line="22" column="50" selection-start="797" selection-end="797" vertical-scroll-proportion="1.0185186">
           <folding />
         </state>
       </provider>
@@ -752,42 +778,54 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="204" selection-end="204" vertical-scroll-proportion="0.2238806">
+        <state line="11" column="1" selection-start="261" selection-end="261" vertical-scroll-proportion="0.38709676">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/.flask-settings.yml">
+    <entry file="file://$PROJECT_DIR$/setup/setup_mysql.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+        <state line="7" column="11" selection-start="274" selection-end="274" vertical-scroll-proportion="0.31343284">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/rest-server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="55" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="3" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.7058824">
+        <state line="16" column="16" selection-start="372" selection-end="372" vertical-scroll-proportion="0.05172414">
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/sqlalchemy_connector.py">
+    <entry file="file://$PROJECT_DIR$/setup/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="15" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.7593583">
+        <state line="16" column="18" selection-start="375" selection-end="375" vertical-scroll-proportion="0.283353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/js/KnockoutBindings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.10625738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/rest-server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="38" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/sqlalchemy_connector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="89" selection-end="89" vertical-scroll-proportion="-0.4876033">
+          <folding />
         </state>
       </provider>
     </entry>

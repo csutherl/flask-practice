@@ -1,7 +1,6 @@
 import json
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy import create_engine
-from sqlalchemy import MetaData, Table, inspect
+from sqlalchemy import create_engine, MetaData, Table, inspect
 from src.server.settings import flask_config
 
 class DB_Connector():
